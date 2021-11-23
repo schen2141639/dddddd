@@ -1,5 +1,11 @@
 [
     {"name":"swf@1.com","password":"123"},
     {"name":"123@1.com","password":"111"},
-    {"name":"1234@1.com","password":"1234"}
+    {"name":"1234@1.com","password":"1234"},
+    {"name":"george.tsang@senecacollege.ca","password":"1234"},
+    {"name":"john@beatles.uk","password":"1234a"},
+     {"name":"paul@beatles.uk","password":"1234a"}
+
+    
+    
 ]
