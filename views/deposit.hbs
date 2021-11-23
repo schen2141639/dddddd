@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="stylesheet" href="/css/bank.css">
+</head>
+
+<body>
+
+  {{!-- {{>header}} --}}
+
+  <section class="blockForm">
+    <form method="POST" action="/deposit">
+      <label id="account">Account Number: {{data.accountNumber}} </label>
+      <label for="depositAmount">Deposit Amount: </label>
+      <input type="text" id="depositAmount" name="depositAmount">
+      <input type="hidden" name="accountNumber" value={{data.accountNumber}} />
+      <input type="submit" value="Submit">
+    </form>
+
+    <form method="GET" action="/index" >
+      <input type="submit" value="Cancel">
+    </form>
+  </section>
+
+</body>
+
+</html>
